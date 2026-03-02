@@ -1,0 +1,147 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Main Container */
+.container {
+    background: #ffffff;
+    width: 420px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Input Section */
+input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+}
+
+/* Buttons */
+button1 {
+    padding: 9px 14px;
+    border: none;
+    border-radius: 8px;
+    background-color: #06831b;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button2 {
+    padding: 9px 14px;
+    border: none;
+    border-radius: 8px;
+    background-color: #fa1909;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button {
+    padding: 9px 14px;
+    border: none;
+    border-radius: 8px;
+    background-color: #667eea;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #5a67d8;
+    transform: scale(1.05);
+}
+
+
+
+button1:hover {
+    background-color: #04a71f;
+    transform: scale(1.05);
+}
+
+button2:hover {
+    background-color: #fc441f;
+    transform: scale(1.05);
+}
+
+
+/* Task List */
+ul {
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    list-style: none;
+    background: #f7f9fc;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+li:hover {
+    transform: translateY(-2px);
+}
+
+/* Completed Task */
+.completed {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.7;
+}
+
+/* Task Buttons */
+li button {
+    margin-left: 8px;
+    padding: 6px 10px;
+    font-size: 12px;
+}
+
+/* Message Styling */
+#message {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Total Tasks */
+p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #444;
+}
